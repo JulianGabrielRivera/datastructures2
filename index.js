@@ -334,3 +334,13 @@ function insertionSort(arr) {
 }
 // testing again
 insertionSort([2, 1, 9, 76, 4]);
+
+function pivot(arr, start = 0, end = arr.length + 1) {
+  if (pivot > arr[i]) {
+    swapIdx++;
+    swap(arr, swapIdx, 1);
+  }
+  swap(arr, star, swapIdx);
+  return swapIdx;
+}
+pivot([10, 4, 8, 2, 1, 5, 7, 6, 3]);
